@@ -31,8 +31,8 @@ lecture_1/
 ```
 
 ## Run code online
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/process-intelligence-research/computational_practicum_lecture_coding/tree/main)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/process-intelligence-research/computational_practicum_lecture_coding/tree/main)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/process-intelligence-research/computational_practicum_lecture_coding/main)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/process-intelligence-research/computational_practicum_lecture_coding/blob/main)
 
 You can also run the code online via [Binder](https://mybinder.org) or  Google's [Colaboratory](https://research.google.com/colaboratory/). Binder is a free, open-source web service that packages Jupyter notebooks inside an executable container, which can be run within a web browser, no installation required. 
 Colab allows users with Google accounts to execute Jupyter notebooks on the Google cloud. 
