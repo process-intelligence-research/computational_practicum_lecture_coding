@@ -28,7 +28,7 @@ def plot_quadratic(a, b, c, x_start=-10, x_end=10, num_points=100):
     y = a * x**2 + b * x + c
 
     plt.figure(figsize=(8, 6))
-    plt.plot(x, y, label=f'y = {a}xÂ² + {b}x + {c}')
+    plt.plot(x, y, label=f'y = {a}x² + {b}x + {c}')
     plt.xlabel('x')
     plt.ylabel('y')
     plt.title('Quadratic Function Plot')
