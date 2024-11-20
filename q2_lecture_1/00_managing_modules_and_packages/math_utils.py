@@ -32,7 +32,7 @@ def pythagoras(a: float, b: float) -> float:
     # Sum the squares of a and b
     csquared = a**2 + b**2
 
-    # Take
+    # Take the square root
     c = math.sqrt(csquared)
 
     # Return the final calculation result
@@ -54,6 +54,7 @@ def factorial(n: int) -> int:
     """
     current_product = 1
     for current_number in range(n):
+        # Multiply the current iteration number to the current product
         current_product = current_product*(current_number+1)
     
     return current_product
