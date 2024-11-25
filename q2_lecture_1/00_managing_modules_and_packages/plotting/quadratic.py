@@ -27,11 +27,11 @@ def plot_quadratic(a, b, c, x_start=-10, x_end=10, num_points=100):
     x = np.linspace(x_start, x_end, num_points)
     y = a * x**2 + b * x + c
 
-    plt.figure(figsize=(8, 6))
-    plt.plot(x, y, label=f'y = {a}x² + {b}x + {c}')
-    plt.xlabel('x')
-    plt.ylabel('y')
-    plt.title('Quadratic Function Plot')
-    plt.legend()
-    plt.grid(True)
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.plot(x, y, label=f'y = {a}x^2 + {b}x + {c}')
+    ax.set_xlabel('x')
+    ax.set_ylabel('y')
+    ax.set_title('Quadratic Function Plot')
+    ax.legend()
+    ax.grid(True)
     plt.show()
