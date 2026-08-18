@@ -1,0 +1,10 @@
+target-version = "py311"
+line-length = 110
+
+[lint]
+select = ["E", "F", "I", "UP"]
+
+[lint.per-file-ignores]
+# Teaching notebooks commonly reuse plotting/loop variable names across cells
+# and rely on notebook execution order rather than being pure `.py` modules.
+"*.ipynb" = ["E402"]
