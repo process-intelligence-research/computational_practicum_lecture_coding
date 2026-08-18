@@ -2,3 +2,9 @@ matplotlib
 numpy
 pandas
 scipy
+plotly
+ipytest
+
+# Note: `requests` is used only in the Colab bootstrap cell of
+# q2_lecture_1/00_managing_modules_and_packages and is not needed for local installs
+# (it is provided by Colab's runtime).

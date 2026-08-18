@@ -1,17 +1,17 @@
-"""This module contains some utility methods that we want to collect 
+"""This module contains some utility methods that we want to collect
 separately, so we don't clutter our main script.
 """
 
 # In the separate module, we have to import the modules we need here. Even
-# if we have already imported them in our main script. But we can also import 
-# additional packages we need here without having to import them in the main 
+# if we have already imported them in our main script. But we can also import
+# additional packages we need here without having to import them in the main
 # script.
 import math
 
 
 def pythagoras(a: float, b: float) -> float:
-    """This is where you usually write a short description of what your function 
-    does, in the so-called docstring. The docstring is enclosed in triple 
+    """This is where you usually write a short description of what your function
+    does, in the so-called docstring. The docstring is enclosed in triple
     quotes, so you can write it in multiple lines.
 
     Pythagorean theorem that calculates the length of the hypothenuse of a right
@@ -55,6 +55,6 @@ def factorial(n: int) -> int:
     current_product = 1
     for current_number in range(n):
         # Multiply the current iteration number to the current product
-        current_product = current_product*(current_number+1)
-    
+        current_product = current_product * (current_number + 1)
+
     return current_product
