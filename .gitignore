@@ -1,6 +1,8 @@
 # Environments
 .venv
 venv
+.TA
+TA
 
 # Notebook checkpoints
 .ipynb_checkpoints
